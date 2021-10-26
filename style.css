@@ -94,6 +94,7 @@ ul {
     display: none;
 }
 
+
 @media screen and (min-width:376px){
 
     body{
@@ -104,7 +105,7 @@ ul {
     .page-landing {
         background-image: linear-gradient(rgb(228, 191, 60),rgb(233, 77, 163)); 
         background-repeat: no-repeat;
-        backdrop-filter: blur(2px);
+
     }
     main {
         width: 358px;

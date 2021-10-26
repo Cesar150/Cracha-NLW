@@ -1,9 +1,8 @@
 const linksSocialMidia = {
     github: "Cesar150",
-    youtube: "maykbrito",
-    facebook: "cesar150",
-    instagram: "cesar150",
-    twitter: "cesar150",
+    linkedin: "in/César-felipe-gomes-da-silva-6328911b7/",
+    youtube: "channel/UCG46_A-CLgsusvX5FMwDbmQ"
+
 }
 
 function changeSocialMidiaLinks() {
