@@ -1,3 +1,3 @@
 # Cracha-NLW
 Cracha Virtual NLW - Created at the Event: NLW Heat - Origin
-<p target="_blank"> take a look: https://cesar150.github.io/Cracha-NLW/</p>
+<a href="https://cesar150.github.io/Cracha-NLW/" target="_blank">take a look</a>
