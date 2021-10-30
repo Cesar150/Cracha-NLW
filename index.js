@@ -39,3 +39,24 @@ function getGithubProfileInfos() {
 }
 
 getGithubProfileInfos();
+
+let count = 1;
+
+function darkMode() {
+
+    if (count === 0) {
+        document.querySelector("main").style.backgroundImage = "url(image/background.svg)";
+        document.querySelector(".cord").src = "image/faixa.svg";
+        document.querySelector(".hole").style.marginTop = "7.5px";
+        document.querySelector(".avatar").style.marginTop = "11.5rem";
+        document.querySelector(".page-landing").style.backgroundImage = "linear-gradient(rgb(228, 191, 60),rgb(233, 77, 163))";
+        count = 1;
+    } else {
+        document.querySelector("main").style.backgroundImage = "url(image/mainDark.svg)";
+        document.querySelector(".cord").src = "image/darkCord.svg";
+        document.querySelector(".avatar").style.marginTop = "11rem";
+        document.querySelector(".hole").style.marginTop = "3px";
+        document.querySelector(".page-landing").style.backgroundImage = "linear-gradient(rgb(184, 145, 6),rgb(83, 58, 139))";
+        count = 0;
+    }
+}
